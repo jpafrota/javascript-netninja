@@ -1,0 +1,12 @@
+* remember to use return in all cases
+
+FILTER: filter array with function
+	ex: get only values that are greater than 2
+MAP: update array values with function
+	ex: multiply all values greater than 30 by 2
+REDUCE: executes a function with all elements on the array returning a single value
+	ex: search through all elements that have name equal to "mario" and summing up the scores.
+FIND: finds a single element that matches the function
+	ex: find a value that is greather than 50
+SORT: sorts array with function
+	ex: sort!
