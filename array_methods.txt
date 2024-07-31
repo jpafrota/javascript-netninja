@@ -2,8 +2,10 @@
 
 FILTER: filter array with function
 	ex: get only values that are greater than 2
-MAP: update array values with function
+MAP: apply a function to a collection. returns a new one.
 	ex: multiply all values greater than 30 by 2
+FOREACH: apply a function to existing elements.
+    ex: make all strings upppercase
 REDUCE: executes a function with all elements on the array returning a single value
 	ex: search through all elements that have name equal to "mario" and summing up the scores.
 FIND: finds a single element that matches the function
